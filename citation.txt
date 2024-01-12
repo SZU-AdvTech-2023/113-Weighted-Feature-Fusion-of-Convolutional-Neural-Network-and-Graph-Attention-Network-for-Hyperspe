@@ -1,0 +1,9 @@
+@article{REPO113,
+    author = "Dong, Yanni and Liu, Quanwei and Du, Bo and Zhang, Liangpei",
+    journal = "IEEE Transactions on Image Processing",
+    number = "",
+    pages = "1559-1572",
+    title = "{Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification}",
+    volume = "31",
+    year = "2022"
+}
