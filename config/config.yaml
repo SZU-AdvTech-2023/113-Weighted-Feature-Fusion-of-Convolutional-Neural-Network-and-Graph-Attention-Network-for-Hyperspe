@@ -1,0 +1,32 @@
+model:
+  model_name: "WFCG"
+
+data_input:
+  dataset_name: yaolin
+  #dataset_name: IndianPines
+  # dataset_name = 'Loukia'
+  # dataset_name = 'Dioni'
+  # dataset_name = 'hanchuan'
+  # dataset_name = "pavia"
+  # dataset_name = "Salinas"
+  classes: 17
+
+data_split:
+  samples_type: ratio
+  # number
+  # ratio
+  train_num: 10
+  val_num: 0
+  train_ratio: 0.001
+  val_ratio: 0.001
+  superpixel_scale: 100
+
+network_config:
+  max_epoch: 300
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  lb_smooth: 0.01
+
+result_output:
+  path_weight: /home3/ywl/PycharmProject/WFCG/weights/
+  path_result: /home3/ywl/PycharmProject/WFCG/results/
